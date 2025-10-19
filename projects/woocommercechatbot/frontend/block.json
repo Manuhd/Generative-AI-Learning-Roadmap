@@ -1,0 +1,9 @@
+{
+  "apiVersion": 2,
+  "name": "woo/chatbot",
+  "title": "WooCommerce Chatbot",
+  "category": "widgets",
+  "icon": "format-chat",
+  "description": "An AI chatbot to assist with WooCommerce product queries.",
+  "editorScript": "woo-chatbot-block"
+}
