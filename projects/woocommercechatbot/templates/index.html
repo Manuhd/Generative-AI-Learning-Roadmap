@@ -1,0 +1,132 @@
+<style>
+#woo-chatbot {
+  position: fixed;
+  bottom: 20px;          /* distance from bottom */
+    left: 50%;             /* center horizontally */
+    transform: translateX(-50%);
+  width: 350px;
+  max-height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+}
+
+#chat-header {
+  background: #007cba;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#chatbox {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.user-msg, .ai-msg {
+  margin: 5px 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user-msg {
+  background: #007cba;
+  color: white;
+  align-self: flex-end;
+}
+
+.ai-msg {
+  background: #e1e1e1;
+  color: black;
+  align-self: flex-start;
+}
+
+#chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+#userInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+#sendBtn {
+  padding: 10px;
+  background: #007cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+img { border-radius: 6px; margin-top: 5px; max-width: 150px; }
+a { color: #007cba; text-decoration: none; }
+</style>
+
+<div id="woo-chatbot">
+  <div id="chat-header">ShopBot 🤖</div>
+  <div id="chatbox"></div>
+  <div id="chat-input">
+    <input type="text" id="userInput" placeholder="Ask about products..." />
+    <button id="sendBtn">Send</button>
+  </div>
+</div>
+
+<script>
+const chatbox = document.getElementById("chatbox");
+const userInput = document.getElementById("userInput");
+const sendBtn = document.getElementById("sendBtn");
+
+const sendMessage = async () => {
+  const question = userInput.value.trim();
+  if (!question) return;
+
+  // Display user message
+  const userMsg = document.createElement("div");
+  userMsg.className = "user-msg";
+  userMsg.innerHTML = question;
+  chatbox.appendChild(userMsg);
+  userInput.value = "";
+  chatbox.scrollTop = chatbox.scrollHeight;
+
+  // Call Flask API
+  try {
+    const res = await fetch("http://127.0.0.1:5000/chat", {  // Change if deployed
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question })
+    });
+    const data = await res.json();
+
+    const aiMsg = document.createElement("div");
+    aiMsg.className = "ai-msg";
+    aiMsg.innerHTML = data.response;
+    chatbox.appendChild(aiMsg);
+    chatbox.scrollTop = chatbox.scrollHeight;
+  } catch (err) {
+    const aiMsg = document.createElement("div");
+    aiMsg.className = "ai-msg";
+    aiMsg.innerHTML = "<b>Error:</b> Cannot connect to AI server.";
+    chatbox.appendChild(aiMsg);
+    chatbox.scrollTop = chatbox.scrollHeight;
+  }
+};
+
+sendBtn.addEventListener("click", sendMessage);
+userInput.addEventListener("keypress", e => {
+  if (e.key === "Enter") sendMessage();
+});
+</script>
