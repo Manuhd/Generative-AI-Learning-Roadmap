@@ -1,0 +1,60 @@
+.woo-chatbot-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  max-width: 400px;
+}
+
+.chatbox {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.message.user {
+  align-self: flex-end;
+  background: #dcf8c6;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background: #f1f0f0;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-row button {
+  padding: 8px 12px;
+  background: #007cba;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-row button:hover {
+  background: #005a9c;
+}
