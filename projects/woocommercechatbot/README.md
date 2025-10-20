@@ -56,7 +56,7 @@ woo-ai-chatbot/
 
 `frontend/`: WordPress plugin folder with Gutenberg block (React). Copy this into your WordPress wp-content/plugins/ folder.
 
-'woo-chatbot-block/' → your plugin code.
+`woo-chatbot-block/` → your plugin code.
 
 `src/` → React components.
 
