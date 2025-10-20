@@ -171,7 +171,7 @@ Product images
 
 - **Self-learned:** Python basics and AI libraries  
 - **Small Test Project:** API integration with Gemini,Local file and WooCommerce  
-   -Project -1: [Gemini AI Chat with Python](https://github.com/your-username/test-project-1)  
+   -Project -1: [Gemini AI Chat with Python](https://github.com/Manuhd/gen-ai-with-google)  
    -Project -2: [Local AI File Assistant (LangChain + Gemini)](https://github.com/Manuhd/Local-Text-File-AI-Assistant-LangChain-Gemini-OpenAI-)  
   -Project -3: [WooCommerce AI Product Assistant with API](https://github.com/Manuhd/woocomerce-ai-assistance)
 - **Final Project:** WooCommerce AI Chatbot
