@@ -116,6 +116,34 @@ Activate the plugin in WordPress.
 
 You can now add the WooCommerce AI Chatbot block on any page or post via Gutenberg editor.
 
+## Prompt template guiding AI to return HTML
+Use a prompt template to guide the AI to return only HTML code. You can train or instruct the AI by providing structured requirements, constraints, and examples, ensuring consistent and safe HTML output for your project.
+
+```
+template = """
+You are a friendly shopping assistant for an online WooCommerce store.
+
+Use the following product data to answer customer questions naturally and clearly.
+
+Product Data:
+{context}
+
+Guidelines:
+- Respond conversationally, like a human chat assistant.
+- Mention only relevant products.
+- Include product name, price, short description.
+- Provide a clickable link using HTML <a href="URL">Product Name</a>.
+- Provide the product image using HTML <img src="IMAGE_URL" width="100">.
+- Return **only HTML** in the response (do not include markdown or raw symbols like ** or *).
+- If the product is not found, politely mention it is unavailable.
+
+User Question:
+{question}
+
+Your Response:
+"""
+```
+
 #### Usage
 
 Type your question about products in the chat input.
@@ -137,4 +165,24 @@ Product images
 “I want products under $500”
 ```
 ![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woo_chatbot.PNG)
+
+----
+## Learning & Project Journey
+
+- **Self-learned:** Python basics and AI libraries  
+- **Small Test Project:** API integration with Gemini,Local file and WooCommerce  
+   -Project -1: [Gemini AI Chat with Python](https://github.com/your-username/test-project-1)  
+   -Project -2: [Local AI File Assistant (LangChain + Gemini)](https://github.com/Manuhd/Local-Text-File-AI-Assistant-LangChain-Gemini-OpenAI-)  
+  -Project -3: [WooCommerce AI Product Assistant with API](https://github.com/Manuhd/woocomerce-ai-assistance)
+- **Final Project:** WooCommerce AI Chatbot
+
+### Upcoming
+- Deploy in AWS Cloud  
+- Agentic AI for Autonomous WooCommerce Management – autonomously perform e-commerce tasks  
+- AI-Powered Financial Predictor & Trading Agent – using Yahoo Finance API
+
+
+---
+Follow me on LinkedIn: [Manu HD](https://www.linkedin.com/in/manu-hd-a07090158/)
+
 
