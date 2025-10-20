@@ -136,4 +136,5 @@ Product images
 
 “I want products under $500”
 ```
+![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woo_chatbot.PNG)
 
