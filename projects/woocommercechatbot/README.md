@@ -177,7 +177,7 @@ Product images
 - **Final Project:** WooCommerce AI Chatbot
 
 ### Upcoming
-- Deploy in AWS Cloud  
+- Deploy in [AWS](https://github.com/Manuhd/aws/tree/main) Cloud  
 - Agentic AI for Autonomous WooCommerce Management – autonomously perform e-commerce tasks  
 - AI-Powered Financial Predictor & Trading Agent – using Yahoo Finance API
 
