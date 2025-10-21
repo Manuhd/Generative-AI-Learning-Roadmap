@@ -169,7 +169,7 @@ Product images
 ----
 ## Learning & Project Journey
 
-- **Self-learned:** [Python basics}(https://github.com/Manuhd/basic-python) and AI libraries  
+- **Self-learned:** [Python basics](https://github.com/Manuhd/basic-python) and AI libraries  
 - **Small Test Project:** API integration with Gemini,Local file and WooCommerce  
    -Project -1: [Gemini AI Chat with Python](https://github.com/Manuhd/gen-ai-with-google)  
    -Project -2: [Local AI File Assistant (LangChain + Gemini)](https://github.com/Manuhd/Local-Text-File-AI-Assistant-LangChain-Gemini-OpenAI-)  
