@@ -26,6 +26,9 @@ A **Python-based AI assistant** for WooCommerce stores. This chatbot fetches pro
 
 ---
 
+## Project Demo-
+![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/Demo%20Project.png)
+
 ## Project Structure
 ```
 woo-ai-chatbot/
