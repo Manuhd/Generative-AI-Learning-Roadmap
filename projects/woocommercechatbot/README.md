@@ -1,6 +1,6 @@
 # WooCommerce AI Chatbot
 
-A **Python-based AI assistant** for WooCommerce stores. This chatbot fetches product data from your WooCommerce store and answers customer questions using **Google Gemini via LangChain**. It displays product names, prices, descriptions, images, and clickable links in a **modern chat widget** that can be embedded in WordPress pages via a **Gutenberg block**.
+A **[Python](https://github.com/Manuhd/basic-python) -based AI assistant** for WooCommerce stores. This chatbot fetches product data from your WooCommerce store and answers customer questions using **Google Gemini via LangChain**. It displays product names, prices, descriptions, images, and clickable links in a **modern chat widget** that can be embedded in WordPress pages via a **Gutenberg block**.
 
 ### View flow diagram - 
 ![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woochatbot.drawio%20(1).png)
@@ -170,9 +170,8 @@ Product images
 ![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woo_chatbot.PNG)
 
 ----
-## Learning & Project Journey
+## Project Journey
 
-- **Self-learned:** [Python basics](https://github.com/Manuhd/basic-python) and AI libraries  
 - **Small Test Project:** API integration with Gemini,Local file and WooCommerce  
    -Project -1: [Gemini AI Chat with Python](https://github.com/Manuhd/gen-ai-with-google)  
    -Project -2: [Local AI File Assistant (LangChain + Gemini)](https://github.com/Manuhd/Local-Text-File-AI-Assistant-LangChain-Gemini-OpenAI-)  
