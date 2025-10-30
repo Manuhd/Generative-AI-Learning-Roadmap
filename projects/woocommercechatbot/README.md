@@ -2,6 +2,9 @@
 
 A **[Python](https://github.com/Manuhd/basic-python) -based AI assistant** for WooCommerce stores. This chatbot fetches product data from your WooCommerce store and answers customer questions using **Google Gemini via LangChain**. It displays product names, prices, descriptions, images, and clickable links in a **modern chat widget** that can be embedded in WordPress pages via a **Gutenberg block**.
 
+Live DEMO:
+[http://43.204.11.39:5000/](http://43.204.11.39:5000/)- Backend
+[https://demo-manu-hd.wasmer.app/shop/](https://demo-manu-hd.wasmer.app/shop/) -Frontend
 ### View flow diagram - 
 ![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woochatbot.drawio%20(1).png)
 ---
