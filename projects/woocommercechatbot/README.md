@@ -4,7 +4,7 @@ A **[Python](https://github.com/Manuhd/basic-python) -based AI assistant** for W
 
 ### Live DEMO:
 - [http://43.204.11.39:5000/](http://43.204.11.39:5000/)- Backend
-- [https://demo-manu-hd.wasmer.app/shop/](https://demo-manu-hd.wasmer.app/shop/) -Frontend
+- [https://demo-manu-hd.wasmer.app/shop/](https://demo-manu-hd.wasmer.app/shop/) -Frontend (In Progress)
 
 ### View flow diagram - 
 ![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woochatbot.drawio%20(1).png)
