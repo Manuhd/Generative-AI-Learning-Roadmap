@@ -90,7 +90,7 @@ Modern LLMs can:
 
 (This is done using frameworks like LangChain + LangGraph.)
 
-## LLMs — Limits / Weaknesses (Very Important in Interviews)
+## LLMs — Limits / Weaknesses (Very Important)
 ####  ❌ 1. Hallucinations
 
 LLMs sometimes generate wrong answers confidently.
