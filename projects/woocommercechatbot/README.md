@@ -189,7 +189,16 @@ One of the challenges faced while working with LangChain was the library mismatc
 - Deploy in [AWS](https://github.com/Manuhd/aws/tree/main) Cloud  -In Progress
 - Agentic AI for Autonomous WooCommerce Management – autonomously perform e-commerce tasks  
 - AI-Powered Financial Predictor & Trading Agent – using Yahoo Finance API
-
+---
+# Read AI topic in simple way:
+- What is [LLMs](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/LLM.md)?
+- What is [Gen AI](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/README.md)?
+- What is [Agentic AI](https://github.com/Manuhd/Agentic-AI/blob/main/README.md)?
+- What is [Langchain](https://github.com/Manuhd/Langchain/blob/main/README.md)?
+- What is [LangGraph](https://github.com/Manuhd/LangGraph/blob/main/README.md)?
+- What is [LangSmith](https://github.com/Manuhd/LangSmith/blob/main/README.md)?
+- What is [RAG](https://github.com/Manuhd/RAG/blob/main/README.md)?
+- What is [LLM Evaluation](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/LLM-Evaluations.md)
 
 ---
 Follow me on LinkedIn: [Manu HD](https://www.linkedin.com/in/manu-hd-a07090158/)
