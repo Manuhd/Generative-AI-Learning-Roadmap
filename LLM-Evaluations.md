@@ -33,16 +33,16 @@ These evaluate using fixed logic.
 
 Examples:
 
-Keyword matching
+- Keyword matching
 
-Exact answer matching
+- Exact answer matching
 
-Regex checking
+- Regex checking
 
 Similarity score using embeddings (cosine similarity)
 
-✅ Fast, cheap
-❌ Not good for open-ended questions
+- ✅ Fast, cheap
+- ❌ Not good for open-ended questions
 
 ### ✅ 2. LLM-as-a-Judge (Most Popular Today)
 
@@ -52,29 +52,29 @@ Example:
 “Rate the answer on accuracy from 1–5.”
 
 Used by:
-✅ LangSmith
-✅ OpenAI evals
-✅ Anthropic evals
+- ✅ LangSmith
+- ✅ OpenAI evals
+- ✅ Anthropic evals
 
-✅ High-quality judgments
-✅ Works for open-ended tasks
-❌ Costly (uses LLM calls)
+- ✅ High-quality judgments
+- ✅ Works for open-ended tasks
+- ❌ Costly (uses LLM calls)
 
 ### ✅ 3. Human Evaluation
 
 Actual humans rate:
 
-Quality
+- Quality
 
-Tone
+- Tone
 
-Relevance
+- Relevance
 
-Safety
+- Safety
 
-✅ Most accurate
-❌ Time-consuming
-❌ Expensive
+- ✅ Most accurate
+- ❌ Time-consuming
+- ❌ Expensive
 
 ### ✅ 4. Task-Specific Evaluation
 
