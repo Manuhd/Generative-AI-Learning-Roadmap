@@ -182,7 +182,7 @@ Product images
   -Project -3: [WooCommerce AI Product Assistant with API](https://github.com/Manuhd/woocomerce-ai-assistance)
 - **Final Project:** WooCommerce AI Chatbot
 
-### Challenge: Library Mismatch in LangChain **[Link](https://github.com/Manuhd/Langchain/blob/main/Library-Mismatch-in-LangChain.md)
+### Challenge: Library Mismatch in LangChain *[Link](https://github.com/Manuhd/Langchain/blob/main/Library-Mismatch-in-LangChain.md)*
 One of the challenges faced while working with LangChain was the library mismatch caused by version fragmentation.
 
 ### Upcoming
