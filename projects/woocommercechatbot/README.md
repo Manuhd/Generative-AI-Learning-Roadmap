@@ -7,7 +7,7 @@ A **[Python](https://github.com/Manuhd/basic-python) -based AI assistant** for W
 - [https://demo-manu-hd.wasmer.app/shop/](https://demo-manu-hd.wasmer.app/shop/) -Frontend (In Progress)
 
 ### View flow diagram - 
-![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/woochatbot.drawio%20(1).png)
+![alt text](https://github.com/Manuhd/Generative-AI-Learning-Roadmap/blob/main/projects/woocommercechatbot/frontend/woochatbot.archetecture%20diagram.png)
 ---
 
 ## Features
