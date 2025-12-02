@@ -95,9 +95,3 @@ Seed only works if:
 At temperature = 0 → seed does nothing.
 
 ---
-
-If you want, I can explain:
-
-* How seed interacts with temperature/top-p
-* Why seed is important in image generation
-* Full list of GenAI model parameters for interviews.
