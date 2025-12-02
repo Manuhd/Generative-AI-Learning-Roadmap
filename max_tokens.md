@@ -71,7 +71,7 @@ Small max_tokens → faster.
 
 ---
 
-# 🎯 Perfect Interview Answer (2 lines)
+# 🎯 Summery
 
 **“max_tokens defines the maximum number of tokens the model is allowed to generate in its response.
 It controls output length, cost, and response time.”**
