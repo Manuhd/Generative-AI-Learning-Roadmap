@@ -1,4 +1,4 @@
-# 🎯 **What is “seed”? (Very Simple Meaning)**
+# 🎯 **What is “seed”? **
 
 **A seed is a number that controls randomness.
 If you use the same seed → you get the same output every time.**
