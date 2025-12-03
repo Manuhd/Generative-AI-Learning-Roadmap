@@ -1,4 +1,4 @@
-# 🔥 **What is Temperature in LLMs? (Simple Explanation)**
+# 🔥 **What is Temperature in LLMs? **
 
 **Temperature controls how *creative* or *predictable* the LLM’s answers are.**
 
