@@ -174,3 +174,21 @@ These define creativity, randomness, repetition control, and length of output.
 Different providers like OpenAI, Gemini, and Claude implement slight variations.**
 
 ---
+| **Parameter**                        | **Meaning**                | **What it Controls**            | **Recommended Values**                | **Use Case**          |
+| ------------------------------------ | -------------------------- | ------------------------------- | ------------------------------------- | --------------------- |
+| **temperature**                      | Controls randomness        | Creativity vs accuracy          | 0.0–0.3 = factual, 0.7–1.0 = creative | RAG = 0.1, Chat = 0.7 |
+| **top_p**                            | Nucleus sampling           | Limits probability mass used    | 0.8–1.0                               | RAG = 1.0             |
+| **top_k**                            | Limits word choices        | How many tokens model considers | 20–50                                 | Gemini RAG = 32       |
+| **max_tokens**                       | Max output length          | Short/long answers              | 256–512                               | Chat = 300, RAG = 512 |
+| **frequency_penalty**                | Prevents repetition        | Repeated lines or words         | 0.0–0.5                               | Story writing = 0.5   |
+| **presence_penalty**                 | Encourages new ideas       | Avoids generic output           | 0.0–0.5                               | Creative tasks = 0.5  |
+| **stop_sequences**                   | Where to stop              | Stops at given token            | “###”, “<END>” etc.                   | Structured outputs    |
+| **response_format** (OpenAI)         | Forces JSON output         | Ensures structure               | `{ "type": "json" }`                  | APIs, agents          |
+| **candidate_count** (Gemini)         | Number of answers          | Multiple completions            | 1–3                                   | N/A for chat          |
+| **safety_settings**                  | Filters harmful content    | Safety levels                   | Default                               | For production apps   |
+| **tools / functions**                | Model calls functions      | Tool-use mode                   | function list                         | Agents, automation    |
+| **logprobs**                         | Return token probabilities | Debug + evaluation              | true/false                            | Not for prod          |
+| **seed**                             | Deterministic output       | Same input = same output        | any integer                           | Testing               |
+| **timeout**                          | Max waiting time           | Avoid slow responses            | 30–60 sec                             | Backend apps          |
+| **presence_penalty**                 | Encourages topic shift     | Avoid repetitive topics         | 0.2–0.5                               | Q/A diversity         |
+| **repetition_penalty** (some models) | Reduce repeated text       | Avoid loops                     | 1.1–1.2                               | Code generation       |
